@@ -214,7 +214,23 @@ class _HomeViewState extends State<HomeView> {
               ),
 
 
-            )
+            ),
+
+
+            SingleChildScrollView(
+            child:Row(
+              children: [
+                  Expanded(child:TextField()),
+                    Container(
+                    width: 2,
+                    height: 50,
+                    color: Colors.grey,
+                  ), 
+                  Expanded(child: TextField()),
+                ],
+              ),
+            ),
+
             
       
           ],
